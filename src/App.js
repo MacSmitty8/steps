@@ -9,12 +9,10 @@ const messages = [
 function App() {
   const [step, setStep] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
-  // console.log(arr)
-
-  // const step = 1;
+  
 
   function handlePrevious() {
-    // alert('previous')
+   
     if (step > 1) setStep(step - 1);
   }
   function handleNext() {
